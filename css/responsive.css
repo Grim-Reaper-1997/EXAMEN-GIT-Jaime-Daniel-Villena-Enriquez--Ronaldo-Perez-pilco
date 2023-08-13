@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width:992px) {
+    nav .collapse{
+        background-color: var(--light-color)  !important;
+        margin-top: 10px;
+    }
+    nav .collapse a{
+        color: var(--dark-color)  !important;
+
+    }
+    .animation{
+        font-size: 3rem;
+    }
+    .w-space{
+        white-space: nowrap;
+    }
+    
+}

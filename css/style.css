@@ -1,0 +1,214 @@
+:root{
+    --h-color: rgb(52,52,52);
+    --dark-color:rgb(28,28,28);
+    --light-color:#fff;
+    --bg-gray:#eee;
+    --p-color:#748182;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: "Montserrat", sans-serif;
+}
+.h-color{
+    color: var(--h-color) ;
+}
+.p-color{
+    color: var(--p-color) ;
+}
+.dark-color{
+    color: var(--dark-color) !important;
+}
+.dark-bg{
+    background-color: var(--dark-color) !important;
+}
+.gray-bg{
+    background-color: var(--bg-gray);
+}
+.line-h{
+    line-height: 5px;
+}
+.l-space{
+    letter-spacing: 2px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px ;
+}
+.h-24{
+    height: 24px !important;
+}
+.bold-8{
+    font-weight: 800;
+}
+:root:has(#home:target) .home a::after,
+:root:has(#about:target) .about a::after,
+:root:has(#services:target) .services a::after,
+:root:has(#works:target) .works a::after,
+:root:has(#clients:target) .clients a::after,
+:root:has(#team:target) .team a::after,
+:root:has(#contact:target) .contact a::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 70%;
+    bottom: 5px ;
+    left: 50%;
+    transform: translate(-50% , 0);
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+}
+.animation{
+    font-size: 4rem;
+}
+.animation::after{
+    content: "I Am |";
+    position: absolute;
+    bottom:  0;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    z-index: 5;
+    animation-name: web;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#home{
+    background-image: url(../imgs/bg.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.sqr-30{
+    width: 30px;
+    height: 30px;
+}
+.sqr-70{
+    width: 70px;
+    height: 70px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    bottom: -2rem;
+    left: 0;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.shadow-in{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 7px inset;
+}
+.w-80{
+    width: 80% ;
+}
+.w-90{
+    width: 90%;
+}
+.w-95{
+    width: 95%;
+}
+#services .card:hover div,
+.hover-dark:hover{
+    background-color: var(--dark-color) !important;
+    color: var(--light-color) !important;
+}
+.hover-light:hover{
+    background-color:var(--light-color) !important;
+    color: var(--dark-color) !important;
+}
+.trans{
+    transition: all .4s ease-in-out;
+}
+.main-title h3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -10px;
+    left: -5px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.u-line::after{
+    content: "";
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 75%;
+    background-color: var(--h-color);
+}
+.translate-10{
+    transform: translateY(10px);
+}
+.translate-15{
+    transform: translateY(-15px);
+}
+.portfolio-hover:hover div{
+    opacity: 1 !important;
+    transform: translateY(0);
+}
+.portfolio-hover:hover h6{
+    transform: translateY(0);
+}
+.rotate-y{
+    transform: rotateY(180deg);
+}
+.team-hover:hover div{
+    opacity: 1 !important;
+    transform: rotateY(0);
+}
+.team-hover:hover img{
+    scale: 1.3;
+    rotate: 10deg;
+}
+.team-hover li,
+.portfolio-hover li{
+    cursor: pointer;
+}
+.animate-img{
+    width: 100px;
+    margin: 2rem auto 14rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.point{
+    width:10px !important;
+    height:10px !important;
+    border-radius: 50%;
+}
+#contact form :is(input , textarea):focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 1px var(--dark-color) ;
+}
+.btn{
+    cursor: pointer;
+}
