@@ -1,53 +1,102 @@
-@keyframes web{
-    1%{content: "I Am |";}
-    2%{content: "I Am D|";}
-    3%{content: "I Am De|";}
-    4%{content: "I Am Dev|";}
-    5%{content: "I Am Deve|";}
-    6%{content: "I Am Devel|";}
-    7%{content: "I Am Develo|";}
-    8%{content: "I Am Develop|";}
-    9%{content: "I Am Develope|";}
-    10%{content: "I Am Developer|";}
-    24%{content: "I Am Developer|";}
-    25%{content: "I Am Develope|";}
-    26%{content: "I Am Develop|";}
-    27%{content: "I Am Develo|";}
-    28%{content: "I Am Devel|";}
-    29%{content: "I Am Deve|";}
-    30%{content: "I Am Dev|";}
-    31%{content: "I Am De|";}
-    32%{content: "I Am D|";}
-    33%{content: "I Am |";}
-    34%{content: "I Am D|";}
-    35%{content: "I Am De|";}
-    36%{content: "I Am Des|";}
-    37%{content: "I Am Desi|";}
-    38%{content: "I Am Desig|";}
-    39%{content: "I Am Design|";}
-    40%{content: "I Am Designe|";}
-    41%{content: "I Am Designer|";}
-    56%{content: "I Am Designer|";}
-    57%{content: "I Am Designe|";}
-    58%{content: "I Am Design|";}
-    59%{content: "I Am Desig|";}
-    60%{content: "I Am Desi|";}
-    61%{content: "I Am Des|";}
-    62%{content: "I Am De|";}
-    63%{content: "I Am D|";}
-    65%{content: "I Am |";}
-    66%{content: "I Am N|";}
-    67%{content: "I Am Na|";}
-    68%{content: "I Am Nas|";}
-    69%{content: "I Am Nass|";}
-    70%{content: "I Am Nassa|";}
-    71%{content: "I Am Nassar|";}
-    94%{content: "I Am Nassar|";}
-    95%{content: "I Am Nassa|";}
-    96%{content: "I Am Nass|";}
-    97%{content: "I Am Nas|";}
-    98%{content: "I Am Na|";}
-    99%{content: "I Am N|";}
-    100%{content: "I Am |";}
-    
+@keyframes web {
+    1% { content: "Juegos para P|"; }
+    2% { content: "Juegos para PC|"; }
+    3% { content: "Juegos para PC|"; }
+    4% { content: "Juegos para P|"; }
+    5% { content: "Juegos para C|"; }
+    6% { content: "Juegos para Co|"; }
+    7% { content: "Juegos para Con|"; }
+    8% { content: "Juegos para Cons|"; }
+    9% { content: "Juegos para Conso|"; }
+    10% { content: "Juegos para Consol|"; }
+    11% { content: "Juegos para Consola|"; }
+    12% { content: "Juegos para Consolas|"; }
+    13% { content: "Juegos para Consolas|"; }
+    14% { content: "Juegos para Consola|"; }
+    15% { content: "Juegos para Consol|"; }
+    16% { content: "Juegos para Conso|"; }
+    17% { content: "Juegos para Cons|"; }
+    18% { content: "Juegos para Con|"; }
+    19% { content: "Juegos para Co|"; }
+    20% { content: "Juegos para C|"; }
+    21% { content: "Juegos para P|"; }
+    22% { content: "Juegos para PC|"; }
+    23% { content: "Juegos para PC|"; }
+    24% { content: "Juegos para P|"; }
+    25% { content: "Juegos para C|"; }
+    26% { content: "Juegos para Co|"; }
+    27% { content: "Juegos para Con|"; }
+    28% { content: "Juegos para Cons|"; }
+    29% { content: "Juegos para Conso|"; }
+    30% { content: "Juegos para Consol|"; }
+    31% { content: "Juegos para Consola|"; }
+    32% { content: "Juegos para Consolas|"; }
+    33% { content: "Juegos para Consolas|"; }
+    34% { content: "Juegos para Consola|"; }
+    35% { content: "Juegos para Consol|"; }
+    36% { content: "Juegos para Conso|"; }
+    37% { content: "Juegos para Cons|"; }
+    38% { content: "Juegos para Con|"; }
+    39% { content: "Juegos para Co|"; }
+    40% { content: "Juegos para C|"; }
+    41% { content: "Juegos para P|"; }
+    42% { content: "Juegos para PC|"; }
+    43% { content: "Juegos para PC|"; }
+    44% { content: "Juegos para P|"; }
+    45% { content: "Juegos para C|"; }
+    46% { content: "Juegos para Co|"; }
+    47% { content: "Juegos para Con|"; }
+    48% { content: "Juegos para Cons|"; }
+    49% { content: "Juegos para Conso|"; }
+    50% { content: "Juegos para Consol|"; }
+    51% { content: "Juegos para Consola|"; }
+    52% { content: "Juegos para Consolas|"; }
+    53% { content: "Juegos para Consolas|"; }
+    54% { content: "Juegos para Consola|"; }
+    55% { content: "Juegos para Consol|"; }
+    56% { content: "Juegos para Conso|"; }
+    57% { content: "Juegos para Cons|"; }
+    58% { content: "Juegos para Con|"; }
+    59% { content: "Juegos para Co|"; }
+    60% { content: "Juegos para C|"; }
+    61% { content: "Juegos para P|"; }
+    62% { content: "Juegos para PC|"; }
+    63% { content: "Juegos para PC|"; }
+    64% { content: "Juegos para P|"; }
+    65% { content: "Juegos para C|"; }
+    66% { content: "Juegos para Co|"; }
+    67% { content: "Juegos para Con|"; }
+    68% { content: "Juegos para Cons|"; }
+    69% { content: "Juegos para Conso|"; }
+    70% { content: "Juegos para Consol|"; }
+    71% { content: "Juegos para Consola|"; }
+    72% { content: "Juegos para Consolas|"; }
+    73% { content: "Juegos para Consolas|"; }
+    74% { content: "Juegos para Consola|"; }
+    75% { content: "Juegos para Consol|"; }
+    76% { content: "Juegos para Conso|"; }
+    77% { content: "Juegos para Cons|"; }
+    78% { content: "Juegos para Con|"; }
+    79% { content: "Juegos para Co|"; }
+    80% { content: "Juegos para C|"; }
+    81% { content: "Juegos para P|"; }
+    82% { content: "Juegos para PC|"; }
+    83% { content: "Juegos para PC|"; }
+    84% { content: "Juegos para P|"; }
+    85% { content: "Juegos para C|"; }
+    86% { content: "Juegos para Co|"; }
+    87% { content: "Juegos para Con|"; }
+    88% { content: "Juegos para Cons|"; }
+    89% { content: "Juegos para Conso|"; }
+    90% { content: "Juegos para Consol|"; }
+    91% { content: "Juegos para Consola|"; }
+    92% { content: "Juegos para Consolas|"; }
+    93% { content: "Juegos para Consolas|"; }
+    94% { content: "Juegos para Consola|"; }
+    95% { content: "Juegos para Consol|"; }
+    96% { content: "Juegos para Conso|"; }
+    97% { content: "Juegos para Cons|"; }
+    98% { content: "Juegos para Con|"; }
+    99% { content: "Juegos para Co|"; }
+    100% { content: "Juegos para C|"; }
 }
