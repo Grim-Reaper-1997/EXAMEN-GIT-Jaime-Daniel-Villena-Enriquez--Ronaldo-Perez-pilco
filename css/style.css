@@ -1,6 +1,6 @@
 :root{
-    --h-color: rgb(52,52,52);
-    --dark-color:rgb(28,28,28);
+    --h-color: rgb(8, 44, 121);
+    --dark-color:rgb(19, 45, 78);
     --light-color:#fff;
     --bg-gray:#eee;
     --p-color:#748182;
@@ -15,7 +15,10 @@ h4,
 h5,
 h6,
 .logo {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+.bg-primary2 {
+    background-color: rgb(19, 45, 78);
 }
 .h-color{
     color: var(--h-color) ;
